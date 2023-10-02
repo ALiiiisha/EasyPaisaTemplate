@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.mein-container {
+  width: 450px;
+  margin: 300px;
+  border: 2px solid gray;
+  box-shadow: #343a40;
+  background-color: #f8f9fa;
+}
+.header-container {
+  display: grid;
+  grid-template-columns: 50px 330px 50px;
+  background-color: #12b886;
+  height: 90px;
+  color: white;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.header-icon {
+  width: 35px;
+  height: 35px;
+  margin-top: 5px;
+}
+.namediv {
+  background-color: #0ca678;
+  height: 180px;
+}
+.second-container {
+  display: grid;
+  grid-template-columns: 280px 50px;
+  background-color: #fff;
+  align-content: center;
+  border: 20px solid #0ca678;
+  border-radius: 30px;
+  padding: 10px;
+}
+.mein-heading {
+  font-size: 24px;
+}
+.myname {
+  font-size: small;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.buttondiv {
+  margin-top: 70px;
+}
+button {
+  background-color: #12b886;
+  border: none;
+  color: #fff;
+  width: 90px;
+  border-radius: 10px;
+  padding: 3.5px;
+}
+.third-container {
+  display: grid;
+  grid-template-columns: 135px 135px 135px;
+
+  gap: 20px;
+  height: 150px;
+}
+.icons {
+  width: 40px;
+  height: 50px;
+  stroke: #12b886;
+  border-radius: 20px;
+}
+.iconname {
+  font-size: 10px;
+}
+.icons-con {
+  border: 1px solid #e9ecef;
+  padding: 8px;
+  margin: 15px;
+  border-radius: 20px;
+}
+.end-container {
+  display: grid;
+  grid-template-columns: 150px 150px;
+
+  gap: 60px;
+  height: 200px;
+  margin-left: 10px;
+}
+.cards {
+  width: 190px;
+  height: 180px;
+}
+.card1 {
+  background-color: #0b7285;
+  margin: 10px;
+  border-radius: 20px;
+  color: goldenrod;
+}
+h4 {
+  color: #fff;
+  margin: 15px;
+  text-align: justify;
+  font-weight: 300;
+}
+.pd {
+  margin: 15px;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+a {
+  border: 2px solid #12b886;
+  padding: 5px 25px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 12px;
+  margin: 10px 16px;
+}
+.card2 {
+  background-color: #343a40;
+  margin: 10px;
+  border-radius: 20px;
+  color: goldenrod;
+}
+.help-container {
+  margin: 25px;
+  line-height: 1.5;
+}
+h5 {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.help {
+  border: 1px solid black;
+  color: black;
+  padding: 4px;
+}
+.hc {
+  margin: -22px 140px;
+}
+.last-header {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px;
+  gap: 45px;
+  justify-items: center;
+}
+.e-icons {
+  width: 25px;
+  height: 25px;
+  margin-top: 30px;
+}
+.ep {
+  font-size: 8px;
+}
+.barcode {
+  stroke: #fff;
+  background-color: #0ca678;
+  border-radius: 5px;
+}
+.hm {
+  color: #0ca678;
+}
